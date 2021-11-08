@@ -1,3 +1,4 @@
+import johnimg from "../images/John-Doe.jpg"
 function About (){
     return (
     <section id="about-me">
@@ -6,7 +7,7 @@ function About (){
           <span className="rotate text-important">John doe</span>,<br />
           and i make horrible websites.
         </h1>
-        <img className="avatar" src="./images/John-Doe.jpg" alt="jhon-doe" />
+        <img className="avatar" src={johnimg} alt="jhon-doe" />
       </section>
     )
 }

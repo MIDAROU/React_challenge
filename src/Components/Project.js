@@ -1,3 +1,9 @@
+import proj1 from '../images/proj1.jpg';
+import proj2 from '../images/proj2.jpg';
+import proj3 from '../images/proj3.jpg';
+import proj4 from '../images/proj4.jpg';
+
+
 function Projects (){
     return (
         <section id="projects">
@@ -5,7 +11,7 @@ function Projects (){
         <div className="projects-container">
           {/*Project Card */}
           <div className="project-card">
-            <img src="./images/proj1.jpg" alt="project" />
+            <img src={proj1} alt="project" />
             <h3>Project 1</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex
@@ -17,7 +23,7 @@ function Projects (){
           </div>
           {/*Project Card */}
           <div className="project-card">
-            <img src="./images/proj2.jpg" alt="project" />
+            <img src={proj2} alt="project" />
             <h3>Project 2</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex
@@ -29,7 +35,7 @@ function Projects (){
           </div>
           {/*Project Card */}
           <div className="project-card">
-            <img src="./images/proj3.jpg" alt="project" />
+            <img src={proj3}alt="project" />
             <h3>Project 3</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex
@@ -41,7 +47,7 @@ function Projects (){
           </div>
           {/*Project Card */}
           <div className="project-card">
-            <img src="./images/proj4.jpg" alt="project" />
+            <img src={proj4} alt="project" />
             <h3>Project 4</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex
